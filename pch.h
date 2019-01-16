@@ -1,0 +1,10 @@
+#pragma once
+#include <d3d11.h>
+#include <dxgi.h>
+#include <d3dx11.h>
+#include <windows.h>
+#include <dxerr.h>
+#include "camera.h"
+#define _XM_NO_INTRINSICS_
+#define XM_NO_ALIGNMENT
+#include <xnamath.h>
